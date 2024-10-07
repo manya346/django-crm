@@ -14,6 +14,3 @@ class OrderFilter(django_filters.FilterSet):
 		fields = '__all__'
 		exclude = ['customer', 'date_created']
 
-
-def something():
-	pass
